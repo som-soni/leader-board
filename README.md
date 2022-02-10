@@ -11,7 +11,7 @@ The service exposes following endpoints.
     This endpoint also **Top 'N'** users ranked based on the scores (descending) but uses **Redis Sorted Set**.
 
 ## Running the service
-* Docker compose file is configured to starts Mongo, Redis in addition to the service.  Use following command to start the service on post 8080.
+* Docker compose file is configured to starts Mongo, Redis in addition to the service.  Use following command to start the service on port 8080.
 
     ```
     docker-componse up --build app
