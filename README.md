@@ -1,4 +1,4 @@
-# leader-board
+# Leader Board POC
 A proof-of-concept service that allows posting scores for users and also get **Top 'N'** users ranked based on the scores. The **Top 'N'** API has two variants one based on **'Mongo'** and the other one is based on **'Redis' Sorted Set**.
 
 ## Service Overview
