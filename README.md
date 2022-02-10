@@ -29,7 +29,7 @@ The service exposes following endpoints.
 * Execute following CURL request to get **Top 'N'**.  v1 API returns the data from Mongo while v2 API will return the data from Redis.
 
     ```
-    curl --location --request GET 'http://localhost:8080/leader-boards/v1/top-n?limit=10'
+    curl --location --request GET 'http://localhost:8080/leader-boards/v1/top-n?limit=2'
     ```
     
     Sample Response
